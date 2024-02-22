@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorTickets-Grupp.UI", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorTickets.Api", "BlazorTickets.Api\BlazorTickets.Api.csproj", "{0DC159AA-8DE0-482A-A3FA-CA274FFBA933}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{FAF2F079-E81A-497E-B0D6-85A9847ABBC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0DC159AA-8DE0-482A-A3FA-CA274FFBA933}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0DC159AA-8DE0-482A-A3FA-CA274FFBA933}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0DC159AA-8DE0-482A-A3FA-CA274FFBA933}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF2F079-E81A-497E-B0D6-85A9847ABBC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF2F079-E81A-497E-B0D6-85A9847ABBC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF2F079-E81A-497E-B0D6-85A9847ABBC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF2F079-E81A-497E-B0D6-85A9847ABBC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
