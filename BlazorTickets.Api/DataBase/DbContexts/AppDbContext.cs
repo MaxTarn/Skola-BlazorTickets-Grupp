@@ -122,6 +122,9 @@ new TagModel { Id = 24, Name = "DevOps" },
 
             modelBuilder.Entity<TicketTag>().HasData(new TicketTag { TicketId = 1, TagId = 1 }
             ); 
-        }
+        }
+
+
+
     }
 }
