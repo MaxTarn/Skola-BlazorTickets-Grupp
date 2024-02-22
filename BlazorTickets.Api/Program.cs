@@ -1,4 +1,7 @@
 
+using BlazorTickets_Grupp.Data.DataBase.DbContexts;
+using Microsoft.EntityFrameworkCore;
+
 namespace BlazorTickets.Api
 {
     public class Program
@@ -13,6 +16,9 @@ namespace BlazorTickets.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+            var connectionsString = builder.Configuration.GetConnectionString("DbConnection");
+            builder.Services.AddDbContext<AppDbContext>(options => options.UseSqlServer(connectionsString));
 
             var app = builder.Build();
 
